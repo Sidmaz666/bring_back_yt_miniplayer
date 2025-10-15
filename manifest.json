@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube MiniPlayer Button",
+  "version": "1.0",
+  "description": "Adds a MiniPlayer button back to the YouTube player controls.",
+  "permissions": ["scripting", "activeTab"],
+  "host_permissions": ["https://www.youtube.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_end",
+      "all_frames": false
+    }
+  ],
+  "icons": {
+    "16": "icons/icon.png"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "youtube-miniplayer@example.com",
+      "strict_min_version": "109.0"
+    }
+  }
+}

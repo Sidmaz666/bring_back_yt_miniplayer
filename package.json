@@ -1,0 +1,12 @@
+{
+  "name": "bring_back_yt_miniplayer",
+  "version": "1.0.0",
+  "main": "content.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["youtube", "miniplayer", "extension", "browser", "chrome", "firefox", "edge"],
+  "author": "Sidmaz666",
+  "license": "ISC",
+  "description": "A browser extension that restores the missing miniplayer button to YouTube's video player interface. This extension ensures you can always access YouTube's miniplayer functionality with a single click."
+}
