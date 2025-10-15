@@ -16,7 +16,7 @@ A browser extension that restores the missing miniplayer button to YouTube's vid
 
 ## 🚀 Installation
 
-### Method 1: Load as Unpacked Extension (Development)
+### Load as Unpacked Extension (Development)
 
 1. Download or clone this repository
 2. Open your browser's extension management page:
@@ -26,13 +26,6 @@ A browser extension that restores the missing miniplayer button to YouTube's vid
 3. Enable "Developer mode" (Chrome/Edge) or "Debug Add-ons" (Firefox)
 4. Click "Load unpacked" and select the extension folder
 5. The extension will be installed and active
-
-### Method 2: Install from chrom Extension
-
-```
-Comming soon...
-
-```
 
 ## 🎮 How It Works
 
