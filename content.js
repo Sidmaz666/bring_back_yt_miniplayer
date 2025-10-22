@@ -48,7 +48,7 @@
     btn.style.cursor = "pointer";
     btn.style.background = "transparent";
 
-    if(check_ytp_r){
+    if (check_ytp_r) {
       btn.style.display = "flex";
       btn.style.justifyContent = "center";
       btn.style.alignItems = "center";
@@ -111,10 +111,17 @@
 
                 // Now try to click the miniplayer menu item
                 setTimeout(() => {
-                  document.querySelectorAll(".ytp-menuitem")[1]?.click();
-                  console.log(
-                    "🎯 MiniPlayer triggered after context menu simulation"
-                  );
+                  const mini_btn = Array.from(
+                    document.querySelectorAll(".ytp-menuitem")
+                  ).find((e) => e.textContent.trim() === "Miniplayer");
+                  if (mini_btn) {
+                    mini_btn.click();
+                    console.log(
+                      "🎯 MiniPlayer triggered after context menu simulation"
+                    );
+                  } else {
+                    console.log("MiniPlayer menu item not found");
+                  }
                 }, 100);
               }
             }, 10); // Check every 10ms for quick response
