@@ -13,7 +13,7 @@
     } else {
       svg.setAttribute("height", "100%");
       svg.setAttribute("width", "100%");
-      svg.setAttribute("viewBox", "0 0 36 36");
+      svg.setAttribute("viewBox", "0 0 65 65");
     }
 
     const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
